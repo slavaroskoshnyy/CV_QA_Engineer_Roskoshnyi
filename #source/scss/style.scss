@@ -29,6 +29,10 @@ body {
    margin: 20px 0;
 }
 
+.color__white {
+   filter: invert(1);
+}
+
 h1 {
    font-size: 38px;
    letter-spacing: 5px;
