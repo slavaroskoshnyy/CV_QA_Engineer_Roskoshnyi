@@ -34,7 +34,7 @@
     text-align: center;
   }
   .columns__right {
-    padding-bottom: 400px;
+    padding-bottom: 260px;
     color: #ffffff;
   }
   .columns__right a {
@@ -48,7 +48,7 @@
   }
   .contacts {
     position: absolute;
-    bottom: 180px;
+    bottom: 40px;
   }
 }
 /**/
