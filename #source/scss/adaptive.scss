@@ -21,7 +21,125 @@
 
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
+@media only screen and (max-width : 480px) {
+
+   .content {
+      width: 370px;
+   }
+
+   h3 {
+      text-align: center;
+      color: $color_white;
+   }
+
+   h4 {
+      color: $color_white;
+   }
+
+   li {
+      p {
+         display: none;
+      }
+   }
+
+   .container {}
+
+   .columns {
+
+      flex-direction: column;
+      margin: 0 auto;
+      background-color: $color_blue;
+
+
+      &__left {
+         max-width: 450px;
+
+         .avatar {
+            img {
+               border-right: none;
+               text-align: center;
+            }
+         }
+      }
+
+      &__right {
+
+         color: $color_white;
+
+         a {
+            color: $color_white;
+         }
+
+         li {
+
+            &::before {
+               background-color: $color_white;
+            }
+         }
+      }
+   }
+
+   .left {
+
+
+      &__wrapper {}
+   }
+
+
+
+   .info {}
+
+   .github {}
+
+   .color {
+
+      &__white {}
+   }
+
+   .doctrine {
+
+      &__description {}
+   }
+
+   .courses {
+
+      &__description {}
+   }
+
+   .certificate {}
+
+
+   .priority {
+      display: none;
+   }
+
+   .contacts {
+      display: none;
+
+      &__description {}
+
+      &__wrapper {}
+   }
+
+   .right {
+
+      &_skills {}
+
+      &_softScils {}
+
+      &_job {}
+
+      &__wrapper {}
+
+      &__about {}
+   }
+
+   .rig {}
+
+   .spils {}
+}
+
+
 
 /**/
 

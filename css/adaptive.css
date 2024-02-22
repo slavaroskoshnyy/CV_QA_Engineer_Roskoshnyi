@@ -6,6 +6,48 @@
 /* Small Devices, Tablets */
 /**/
 /* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .content {
+    width: 370px;
+  }
+  h3 {
+    text-align: center;
+    color: #ffffff;
+  }
+  h4 {
+    color: #ffffff;
+  }
+  li p {
+    display: none;
+  }
+  .columns {
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #203472;
+  }
+  .columns__left {
+    max-width: 450px;
+  }
+  .columns__left .avatar img {
+    border-right: none;
+    text-align: center;
+  }
+  .columns__right {
+    color: #ffffff;
+  }
+  .columns__right a {
+    color: #ffffff;
+  }
+  .columns__right li::before {
+    background-color: #ffffff;
+  }
+  .priority {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
 /**/
 /* Custom, iPhone Retina */
 /**/
