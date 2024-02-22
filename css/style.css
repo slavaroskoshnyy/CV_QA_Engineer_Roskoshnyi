@@ -133,9 +133,6 @@ h4 {
   font-style: 30px;
   font-weight: 800;
 }
-h4 a {
-  color: #203472;
-}
 
 li {
   padding-left: 20px;
@@ -153,6 +150,9 @@ li::before {
   height: 8px;
   border-radius: 50%;
   background-color: #203472;
+}
+li a {
+  color: #203472;
 }
 
 .columns {
