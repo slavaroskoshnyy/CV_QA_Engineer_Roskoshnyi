@@ -24,6 +24,7 @@
     flex-direction: column;
     margin: 0 auto;
     background-color: #203472;
+    position: relative;
   }
   .columns__left {
     max-width: 450px;
@@ -33,6 +34,7 @@
     text-align: center;
   }
   .columns__right {
+    padding-bottom: 400px;
     color: #ffffff;
   }
   .columns__right a {
@@ -45,7 +47,8 @@
     display: none;
   }
   .contacts {
-    display: none;
+    position: absolute;
+    bottom: 180px;
   }
 }
 /**/

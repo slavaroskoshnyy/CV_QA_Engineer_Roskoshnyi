@@ -49,7 +49,7 @@
       flex-direction: column;
       margin: 0 auto;
       background-color: $color_blue;
-
+      position: relative;
 
       &__left {
          max-width: 450px;
@@ -63,6 +63,8 @@
       }
 
       &__right {
+
+         padding-bottom: 400px;
 
          color: $color_white;
 
@@ -114,7 +116,10 @@
    }
 
    .contacts {
-      display: none;
+
+      position: absolute;
+      bottom: 180px;
+      // display: none;
 
       &__description {}
 
