@@ -3,29 +3,19 @@
 /*==========  Desktop First  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {}
-
-/**/
-
+@media only screen and (max-width : 1200px) {
+   .content {
+      width: 100%;
+   }
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {}
 
 /**/
 
-
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {}
-
-/**/
-
-
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-
-   .content {
-      width: 370px;
-   }
+@media only screen and (max-width : 767px) {
 
    h2,
    h1 {
@@ -47,22 +37,26 @@
       }
    }
 
+   .wrapper {
+      background: $color_blue;
+   }
+
    .container {}
 
    .columns {
 
       flex-direction: column;
       margin: 0 auto;
-      background-color: $color_blue;
       position: relative;
 
       &__left {
-         max-width: 450px;
+         max-width: 100%;
 
          .avatar {
             img {
                border-right: none;
                text-align: center;
+               padding: 30px;
             }
          }
       }
@@ -86,36 +80,6 @@
       }
    }
 
-   .left {
-
-
-      &__wrapper {}
-   }
-
-
-
-   .info {}
-
-   .github {}
-
-   .color {
-
-      &__white {}
-   }
-
-   .doctrine {
-
-      &__description {}
-   }
-
-   .courses {
-
-      &__description {}
-   }
-
-   .certificate {}
-
-
    .priority {
       display: none;
    }
@@ -125,73 +89,33 @@
       position: absolute;
       bottom: 30px;
 
-      h3 {
-         width: 330px;
-      }
-
-      // display: none;
-
-      &__description {}
-
-      &__wrapper {}
    }
 
-   .right {
-
-      &_skills {}
-
-      &_softScils {}
-
-      &_job {}
-
-      &__wrapper {}
-
-      &__about {}
-   }
-
-   .rig {}
-
-   .spils {}
 }
 
-
-
-/**/
-
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {}
-
-/**/
-
-
-/*==========  Mobile First  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {}
-
-/**/
-
-
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {}
+@media only screen and (max-width : 480px) {
 
-/**/
+   .columns {
+      &__left {
+         .avatar {
+            img {
+               padding: 0;
+            }
+         }
+      }
+   }
 
+}
 
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+   .columns {
 
-/**/
+      &__left {
+         max-width: 280px;
+         min-width: 0px;
+      }
 
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {}
-
-/**/
-
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {}
-
-/**/
+   }
+}

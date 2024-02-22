@@ -148,6 +148,14 @@ li {
       padding-left: 20px;
       margin-right: 20px;
       overflow: hidden;
+      width: 100%;
+
+      a {
+         text-overflow: ellipsis;
+         white-space: nowrap;
+         overflow: hidden;
+      }
+
 
       img {
          width: 20px;
