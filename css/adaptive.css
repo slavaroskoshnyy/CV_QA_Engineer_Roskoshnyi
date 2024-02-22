@@ -52,7 +52,10 @@
   }
   .contacts {
     position: absolute;
-    bottom: 40px;
+    bottom: 30px;
+  }
+  .contacts h3 {
+    width: 330px;
   }
 }
 /**/
