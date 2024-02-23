@@ -77,6 +77,11 @@ h1, h2, h3, h4, h5, h6 {
 body a {
   text-decoration: underline;
 }
+body p,
+body li {
+  -webkit-hyphens: auto;
+          hyphens: auto;
+}
 
 .wrapper {
   min-height: 100vh;

@@ -5,6 +5,12 @@ body {
    a {
       text-decoration: underline;
    }
+
+   p,
+   li {
+		hyphens: auto;
+   }
+
 }
 
 .wrapper {
