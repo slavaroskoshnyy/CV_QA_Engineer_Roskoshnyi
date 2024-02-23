@@ -50,7 +50,9 @@
       position: relative;
 
       &__left {
+
          max-width: 100%;
+         min-width: 100%;
 
          .avatar {
             img {
@@ -109,13 +111,4 @@
 }
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-   .columns {
-
-      &__left {
-         max-width: 280px;
-         min-width: 0px;
-      }
-
-   }
-}
+@media only screen and (max-width : 320px) {}

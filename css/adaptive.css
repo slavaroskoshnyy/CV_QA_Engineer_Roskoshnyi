@@ -33,6 +33,7 @@
   }
   .columns__left {
     max-width: 100%;
+    min-width: 100%;
   }
   .columns__left .avatar img {
     border-right: none;
@@ -64,9 +65,3 @@
   }
 }
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 320px) {
-  .columns__left {
-    max-width: 280px;
-    min-width: 0px;
-  }
-}
