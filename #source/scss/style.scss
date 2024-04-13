@@ -149,39 +149,39 @@ li {
          }
       }
 
-		.contacts {
-			margin-right: 20px;
-			overflow: hidden;
-			width: 100%;
-	
-			a {
-				text-overflow: ellipsis;
-				white-space: nowrap;
-				overflow: hidden;
-			}
-	
-	
-			img {
-				width: 20px;
-				height: 20px;
-			}
-	
-			&__wrapper {
-				display: flex;
-				align-items: center;
-				padding: 5px 0;
-	
-				p,
-				a {
-					padding-left: 18px;
-				}
-			}
-		}
+      .contacts {
+         margin-right: 20px;
+         overflow: hidden;
+         width: 100%;
+
+         a {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+         }
+
+
+         img {
+            width: 20px;
+            height: 20px;
+         }
+
+         &__wrapper {
+            display: flex;
+            align-items: center;
+            padding: 5px 0;
+
+            p,
+            a {
+               padding-left: 18px;
+            }
+         }
+      }
    }
 
-	.priority{
-		padding-left: 20px;
-	}
+   .priority {
+      padding-left: 20px;
+   }
 
    &__right {
 
@@ -200,6 +200,10 @@ li {
 
          &__about {
             margin-left: 5px;
+         }
+
+         &__description {
+            margin: 8px 0;
          }
       }
    }

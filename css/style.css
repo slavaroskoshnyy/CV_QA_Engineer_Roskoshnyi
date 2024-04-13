@@ -232,3 +232,6 @@ li a {
 .columns__right .right__about {
   margin-left: 5px;
 }
+.columns__right .right__description {
+  margin: 8px 0;
+}
