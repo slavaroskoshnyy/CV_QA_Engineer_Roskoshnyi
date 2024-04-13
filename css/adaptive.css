@@ -26,6 +26,10 @@
   .wrapper {
     background: #203472;
   }
+  .rig {
+    padding-left: 0px;
+    margin: 0;
+  }
   .columns {
     flex-direction: column;
     margin: 0 auto;
@@ -33,6 +37,7 @@
   .columns__left {
     max-width: 100%;
     min-width: 100%;
+    padding-bottom: 0;
   }
   .columns__left .avatar img {
     border-right: none;
@@ -40,6 +45,7 @@
     padding: 30px;
   }
   .columns__right {
+    padding-bottom: 20px;
     color: #ffffff;
   }
   .columns__right a {

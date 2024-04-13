@@ -43,6 +43,11 @@
 
    .container {}
 
+   .rig {
+      padding-left: 0px;
+      margin: 0;
+   }
+
    .columns {
 
       flex-direction: column;
@@ -53,6 +58,7 @@
 
          max-width: 100%;
          min-width: 100%;
+         padding-bottom: 0;
 
          .avatar {
             img {
@@ -65,7 +71,7 @@
 
       &__right {
 
-         // padding-bottom: 280px;
+         padding-bottom: 20px;
 
          color: $color_white;
 
