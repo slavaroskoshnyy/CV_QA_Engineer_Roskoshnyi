@@ -196,29 +196,31 @@ li a {
   width: 20px;
   height: 20px;
 }
-.columns .contacts {
-  padding-left: 20px;
+.columns__left .contacts {
   margin-right: 20px;
   overflow: hidden;
   width: 100%;
 }
-.columns .contacts a {
+.columns__left .contacts a {
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-.columns .contacts img {
+.columns__left .contacts img {
   width: 20px;
   height: 20px;
 }
-.columns .contacts__wrapper {
+.columns__left .contacts__wrapper {
   display: flex;
   align-items: center;
   padding: 5px 0;
 }
-.columns .contacts__wrapper p,
-.columns .contacts__wrapper a {
+.columns__left .contacts__wrapper p,
+.columns__left .contacts__wrapper a {
   padding-left: 18px;
+}
+.columns .priority {
+  padding-left: 20px;
 }
 .columns__right {
   padding: 0 20px;

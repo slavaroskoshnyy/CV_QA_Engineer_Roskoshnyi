@@ -29,7 +29,6 @@
   .columns {
     flex-direction: column;
     margin: 0 auto;
-    position: relative;
   }
   .columns__left {
     max-width: 100%;
@@ -52,10 +51,6 @@
   }
   .priority {
     display: none;
-  }
-  .contacts {
-    position: absolute;
-    bottom: 30px;
   }
 }
 /* Extra Small Devices, Phones */

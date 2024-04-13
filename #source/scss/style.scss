@@ -148,37 +148,40 @@ li {
             }
          }
       }
+
+		.contacts {
+			margin-right: 20px;
+			overflow: hidden;
+			width: 100%;
+	
+			a {
+				text-overflow: ellipsis;
+				white-space: nowrap;
+				overflow: hidden;
+			}
+	
+	
+			img {
+				width: 20px;
+				height: 20px;
+			}
+	
+			&__wrapper {
+				display: flex;
+				align-items: center;
+				padding: 5px 0;
+	
+				p,
+				a {
+					padding-left: 18px;
+				}
+			}
+		}
    }
 
-   .contacts {
-      padding-left: 20px;
-      margin-right: 20px;
-      overflow: hidden;
-      width: 100%;
-
-      a {
-         text-overflow: ellipsis;
-         white-space: nowrap;
-         overflow: hidden;
-      }
-
-
-      img {
-         width: 20px;
-         height: 20px;
-      }
-
-      &__wrapper {
-         display: flex;
-         align-items: center;
-         padding: 5px 0;
-
-         p,
-         a {
-            padding-left: 18px;
-         }
-      }
-   }
+	.priority{
+		padding-left: 20px;
+	}
 
    &__right {
 
