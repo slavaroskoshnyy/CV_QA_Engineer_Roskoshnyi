@@ -8,7 +8,7 @@ body {
 
    p,
    li {
-		hyphens: auto;
+      hyphens: auto;
    }
 
 }
@@ -184,6 +184,14 @@ li {
 
       padding: 0 20px;
       color: $color_blue;
+
+      .job {
+
+         ul {
+            margin-top: 8px;
+         }
+
+      }
 
       .right {
 
