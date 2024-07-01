@@ -133,7 +133,7 @@ li {
 
       .info {
 
-         padding: 0 10px 0 20px;
+         padding: 0 13px 0 20px;
 
          .github {
             a {
@@ -180,7 +180,7 @@ li {
    }
 
    .priority {
-      padding-left: 20px;
+      padding: 0 13px 0 20px;
    }
 
    &__right {
@@ -204,9 +204,10 @@ li {
 
          &__description {
             margin: 8px 0;
-				a{
-					color: $color_blue;
-				}
+
+            a {
+               color: $color_blue;
+            }
          }
       }
    }
