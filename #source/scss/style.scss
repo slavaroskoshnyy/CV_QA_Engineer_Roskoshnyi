@@ -6,6 +6,18 @@ body {
       text-decoration: underline;
    }
 
+   p {
+      padding: 2px 0;
+
+      &:first-child {
+         padding: 0;
+      }
+
+      &:last-child {
+         padding: 0;
+      }
+   }
+
    p,
    li {
       hyphens: auto;
@@ -203,7 +215,7 @@ li {
          }
 
          &__description {
-				
+
             text-align: justify;
             text-indent: 45px;
             margin: 8px 0;
